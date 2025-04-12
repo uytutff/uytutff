@@ -18,8 +18,8 @@ jobs:
       - name: stick
         run: |
           date > date.txt
-          git config --local user.name "自己的github用户名（重要）"
-          git config --local user.email "自己的github邮箱（重要）"
+          git config --local user.name "uytutff"
+          git config --local user.email "nikkistripletta62@gmail.com"
           git add date.txt
           git commit --allow-empty -m "updated txt"
-          git push  
+          git push
